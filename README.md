@@ -3,7 +3,7 @@
 OpenShelf is a simple and elegant React app to discover books using the [Open Library API](https://openlibrary.org/developers/api). Just type a book title, and it will show results with covers, authors, and direct links to OpenLibrary.
 
 ## 🚀 Live Demo
-[OpenShelf on StackBlitz]()
+[OpenShelf on StackBlitz](https://stackblitz.com/~/github.com/Savandangar/openshelf)
 
 ## 🛠️ Tech Stack
 Built with **React (Vite)** for fast development, styled using **Bootstrap** for a clean responsive layout, and **React Toastify** for toastr-style notifications. It fetches book data from the **Open Library API** with plain **JavaScript (ES6+)**, **HTML5**, and **CSS3**.
