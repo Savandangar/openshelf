@@ -34,8 +34,7 @@ npm run dev
 then open http://localhost:5173 in your browser.
 
 📂 Project Structure
-openshelf/
-│── src/
+openshelf/                                                                                                                                                                             │── src/                                                                                                                                                                                
 │   ├── components/
 │   │   ├── SearchBar.jsx
 │   │   ├── BookGrid.jsx
