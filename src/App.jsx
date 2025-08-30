@@ -52,7 +52,7 @@ export default function App() {
       <nav className="navbar navbar-dark bg-primary mb-4">
         <div className="container">
           <a className="navbar-brand" href="#">
-            📚 Book Finder
+            📚 Open Shelf
           </a>
         </div>
       </nav>

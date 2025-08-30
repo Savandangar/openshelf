@@ -1,12 +1,52 @@
-# React + Vite
+# OpenShelf 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+OpenShelf is a simple and elegant React app to discover books using the [Open Library API](https://openlibrary.org/developers/api). Just type a book title, and it will show results with covers, authors, and direct links to OpenLibrary.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[OpenShelf on StackBlitz]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+Built with **React (Vite)** for fast development, styled using **Bootstrap** for a clean responsive layout, and **React Toastify** for toastr-style notifications. It fetches book data from the **Open Library API** with plain **JavaScript (ES6+)**, **HTML5**, and **CSS3**.
 
-## Expanding the ESLint configuration
+## ✨ Features
+- Search books by title with instant results  
+- Book cards displaying cover image, title, author(s), and first publish year  
+- Direct link to each book’s OpenLibrary page  
+- Responsive grid layout using Bootstrap  
+- Loading spinner while results are fetched  
+- Toast notifications for empty searches, no results, and network/API errors  
+- Clean and minimal UI with navbar and search bar  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖥️ How to Run
+Clone the repository with  
+```bash
+git clone https://github.com/YOUR-USERNAME/openshelf.git
+cd openshelf
+```
+Install dependencies with
+```bash
+npm install
+```
+and start the app locally with
+```bash
+npm run dev
+```
+then open http://localhost:5173 in your browser.
+
+📂 Project Structure
+openshelf/
+│── src/
+│   ├── components/
+│   │   ├── SearchBar.jsx
+│   │   ├── BookGrid.jsx
+│   │   └── BookCard.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│── package.json
+│── README.md
+
+📦 Deployment and License
+
+The project is deployed on StackBlitz for instant live preview.
+It uses data from the free and public Open Library API. No authentication or API key is required.
